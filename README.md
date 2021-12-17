@@ -48,6 +48,18 @@ An example of the code to react the the MIDI signals is shown below
       }
     }
    
+   
+    if (mi1 == 0xb0) {       // LPD8 knobs OR FCB 1010 expression
+      switch (mi2) {
+        case 0:              change_amp_param(AMP_GAIN, mi3/127.0);   break; // k1       
+        case 1:              change_amp_param(AMP_BASS, mi3/127.0);   break; // k2       
+        case 2:              change_amp_param(AMP_MID, mi3/127.0);    break; // k3
+        case 3:              change_amp_param(AMP_TREBLE, mi3/127.0); break; // k4
+        case 4:              change_amp_param(AMP_MASTER, mi3/127.0); break; // k5
+        case 5:                                                       break; // k6
+        case 6:                                                       break; // k7
+        case 7:              change_amp_param(AMP_GAIN, mi3/127.0);   break; // k8 OR FCB EXP 1
+        case 27:             change_amp_param(AMP_MASTER, mi3/127.0); break; // FCB EXP2
 ```
 
 Where ```mi1``` is the midi command and ```mi2``` and ```mi3``` are the two midi message data bytes.   
