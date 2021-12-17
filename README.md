@@ -27,7 +27,7 @@ The circuit diagram is below
 
 
 <p align="center">
-  <img src="https://github.com/paulhamsh/SparkMIDIHeltec/blob/main/USB Host Heltec.jpg" width="700" title="Circuit">
+  <img src="https://github.com/paulhamsh/SparkMIDIHeltec/blob/main/USB Host Heltec.jpg" width="900" title="Circuit">
 </p>
 
 The MIDI in circuit is from https://www.pjrc.com/teensy/td_libs_MIDI.html    
