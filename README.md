@@ -20,14 +20,14 @@ It is set up to reconise and map the Akai LPD8 Wireless, the MIDICommanded USB p
 The UI shows activity and connection status.   
 
 <p align="center">
-  <img src="https://github.com/paulhamsh/SparkMIDIHeltec/blob/main/image1.jpg" width="350" title="M5 Core 2">
+  <img src="https://github.com/paulhamsh/SparkMIDIHeltec/blob/main/image1.jpg" width="350" title="Board">
 </p>
 
 The circuit diagram is below   
 
 
 <p align="center">
-  <img src="https://github.com/paulhamsh/SparkMIDIHeltec/blob/main/USB Host Heltec.jpg" width="350" title="M5 Core 2">
+  <img src="https://github.com/paulhamsh/SparkMIDIHeltec/blob/main/USB Host Heltec.jpg" width="700" title="Circuit">
 </p>
 
 The MIDI in circuit is from https://www.pjrc.com/teensy/td_libs_MIDI.html    
