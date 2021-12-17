@@ -18,7 +18,7 @@ It is set up to reconise and map the Akai LPD8 Wireless, the MIDICommanded USB p
 
 
 <p align="center">
-  <img src="https://github.com/paulhamsh/SparkMIDI/blob/main/image1.jpg" width="350" title="M5 Core 2">
+  <img src="https://github.com/paulhamsh/SparkMIDIHeltec/blob/main/image1.jpg" width="350" title="M5 Core 2">
 </p>
 
 
