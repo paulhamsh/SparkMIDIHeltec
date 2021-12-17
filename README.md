@@ -32,3 +32,26 @@ The circuit diagram is below
 
 The MIDI in circuit is from https://www.pjrc.com/teensy/td_libs_MIDI.html    
 
+An example of the code to react the the MIDI signals is shown below   
+
+```
+    if (mi1 == 0xc0) {       // FCB1010 switches
+      switch (mi2) {
+        case 0:              change_hardware_preset(0);               break; // pad 1
+        case 1:              change_hardware_preset(1);               break; // pad 2
+        case 2:              change_hardware_preset(2);               break; // pad 3
+        case 3:              change_hardware_preset(3);               break; // pad 4
+        case 5:              change_comp_toggle();                    break; // pad 5
+        case 6:              change_drive_toggle();                   break; // pad 6
+        case 7:              change_delay_toggle();                   break; // pad 7
+        case 8:              change_reverb_toggle();                  break; // pad 8
+      }
+    }
+   
+```
+
+Where ```mi1``` is the midi command and ```mi2``` and ```mi3``` are the two midi message data bytes.   
+Hopefully it is clear that the messages to the Spark are pretty simple.   
+
+If you want any assistance please raise an issue in the repo and I will support as best I can.   
+
