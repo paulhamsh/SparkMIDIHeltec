@@ -23,6 +23,8 @@ The UI shows activity and connection status.
   <img src="https://github.com/paulhamsh/SparkMIDIHeltec/blob/main/image1.jpg" width="350" title="Board">
 </p>
 
+## Circuit
+
 The circuit diagram is below   
 
 
@@ -31,6 +33,15 @@ The circuit diagram is below
 </p>
 
 The MIDI in circuit is from https://www.pjrc.com/teensy/td_libs_MIDI.html    
+
+## Install for Heltec
+
+Use ArduinoIDE and install all the normal Heltec items (board manager and libraries).   
+Also install the "NinMLE-Arduino"  library and "USBHost" library.   
+Then compile the SparkMIDIHeltec files and upload as normal.   
+
+
+## Example code
 
 An example of the code to react the the MIDI signals is shown below   
 
